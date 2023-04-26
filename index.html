@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodespill</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style_index.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-flask"></i>
+            <p >Periodespill</p>
+        </a>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        </button>
+
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li>
+                    <a href="./html/game1.html" class="underline">
+                        <span aria-hidden="true">01</span>Få navnet
+                    </a>
+                </li>
+                <li>
+                    <a href="./html/game2.html" class="underline">
+                        <span aria-hidden="true">02</span>Få symbolet
+                    </a>
+                </li>
+                <li>
+                    <a href="./html/game3.html" class="underline">
+                        <span aria-hidden="true">03</span>20 første
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Periodespill</h1>
+        <h3>For deg som vil bli litt bedre i kjemi! </h3>
+        <p class="introavsnitt">Dette er et spill for deg som har lyst til å prøve å memorere periodesystemt. Det kan komme godt med hvis du har kjemi på skolen og vil bruke mindre tid på å lete etter grunnstoffet når du skal hente informasjon om det og burke det i utregningen din. Spillet går ut på at du får utdelt et navn eller symbol på et grunnstoff. Deretter skal du trykke på hvor i periodesystemt dette grunnstoffet er plasert.</p>
+        <a href="./html/game1.html">
+            <div class="game1">
+                <p class="underline">Få navnet, trykk på symbolet</p>
+            </div>
+        </a>
+        <a href="./html/game2.html">
+            <div class="game2">
+                <p class="underline">Få symbolet, trykk på navnet</p>
+            </div>
+        </a>
+        <a href="./html/game3.html">
+            <div class="game3">
+                <p class="underline">De 20 første elementene</p>
+            </div>
+        </a>
+    </main>
+
+    <script src="./JavaScript/script_nav.js"></script>
+</body>
+</html>
